@@ -14,4 +14,10 @@ export class ShoppingListComponent {
 
   ];
 
+  addItemHandler( newIngredient:Ingredient ){
+
+    this.ingredients.push(newIngredient);
+
+  }
+
 }
