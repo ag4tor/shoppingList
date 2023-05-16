@@ -13,7 +13,6 @@ export class AppComponent {
 
   onNavigate(feature:string){
     this.selectedFeature = feature;
-    console.log("ho preso questo",feature)
   }
 
 }

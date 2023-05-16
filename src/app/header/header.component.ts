@@ -12,7 +12,6 @@ export class HeaderComponent {
 
   onSelect(feature:string)
   {
-    console.log('mi è arrivato questo', feature)
     this.selectFeature.emit(feature);
 
   }
