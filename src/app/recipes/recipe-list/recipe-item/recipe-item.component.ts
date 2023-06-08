@@ -13,8 +13,8 @@ export class RecipeItemComponent {
 
   @Input() recipe:Recipe;
 
-  onSelectRecipe() {
-    this.recipeService.recipeSelected.emit(this.recipe);
-  }
+  // onSelectRecipe() {
+  //   this.recipeService.recipeSelected.emit(this.recipe);
+  // }
 
 }
